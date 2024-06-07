@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int i,n,st,sp;
+    scanf("%d%d",&st,&sp);
+    i=st;
+    while(i<=sp)
+    {
+        printf(" %d ",i);
+        i++;
+    }
+
+    return 0;
+}
