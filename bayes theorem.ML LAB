@@ -1,0 +1,14 @@
+#calculate p(A|B) given p(A and B) and p(B)
+def bayes_theorem(p_a_b,p_b):
+    #calculate p(A|B)=p(A and B)/p(B)
+    p_a_given_b=(p_a_b)/p_b
+    return p_a_given_b
+#p(A and B)
+p_a_b=0.03
+#p(B)
+p_b=0.20
+#calculate p(A|B)
+result=bayes_theorem(p_a_b,p_b)
+#summarize
+print('p(A|B)=%.f%%'%(result*100))
+
